@@ -1,2 +1,6 @@
 # GLUA_SITE
-Glua-site
+
+
+# Development:
+
+docker-compose up
