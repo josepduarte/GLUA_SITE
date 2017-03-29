@@ -3,8 +3,6 @@ version: '2'
 services:
    db:
      image: mysql:5.7
-     volumes:
-       - db_data:/var/lib/mysql
      restart: always
      environment:
        MYSQL_ROOT_PASSWORD: wordpress
@@ -22,5 +20,6 @@ services:
      environment:
        WORDPRESS_DB_HOST: db:3306
        WORDPRESS_DB_PASSWORD: wordpress
-volumes:
-    db_data:
+     volumes:
+       - ~/Desktop/GLUA/wordpress/GLUA_SITE/wp_html:/var/www/html
+
