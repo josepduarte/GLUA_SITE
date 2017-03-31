@@ -1028,6 +1028,7 @@ a:active {
 .site-branding {
     clear: both;
     margin-bottom: 14px;
+    height: 300px;
     text-align: center;
 }
 
