@@ -21,4 +21,4 @@ O GLUA está sediado na sala **120 do DETI**.
 O horário de atendimento do GLUA encontra-se **encerrado por tempo indeterminado**.
 
 ## Junta-te a nós!
-Se pretende colaborar com o GLUA de alguma maneira, contacte-nos via *e-mail* < ___[glua@ua.pt](mailto:glua@ua.pt)___ >
+Se pretende colaborar com o GLUA de alguma maneira, contacte-nos via *e-mail* < ___[{{ site.email }}](mailto:{{ site.email }})___ >
