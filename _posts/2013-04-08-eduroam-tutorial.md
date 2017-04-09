@@ -60,7 +60,7 @@ ________________________________
 
 ## <a name="unity"></a>Unity
 
-No canto superior direito deve selecionar o ícone de rede ![alt text](ubuntuInternetIcon)
+No canto superior direito deve selecionar o ícone de rede ![alt text][ubuntuInternetIcon]
 De seguida preencher os campos com os seguintes dados:
 
 
@@ -74,27 +74,27 @@ Inner authentication    | MSCHAPv2
 Username                | mail@ua.pt          
 Password                | *****
 
-![alt text](ubuntuInternetMenu)
+![alt text][ubuntuInternetMenu]
 
 Depois de preencher todos os campos, conforme foi referido anteriormente, basta proceder a conexão e esperar
-![alt text](ubuntuInternetLoad)
+![alt text][ubuntuInternetLoad]
 
 Após os dados serem validados irá receber a seguinte mensagem de ligação concluída com sucesso:
-![alt text](ubuntuInternetLoad)
+![alt text][ubuntuInternetLoad]
 
 ________________________________
 
 ## <a name="gnome3"></a> Gnome3
 
-No canto superior direito, como no [Unity](##Unity), deve selecionar o ícone de rede ![alt text](gnomeInternetIcon)
+No canto superior direito, como no [Unity](##Unity), deve selecionar o ícone de rede ![alt text][gnomeInternetIcon]
 
 Após selecionar a rede **eduroam** deverá preencher os dados como na secção do [Unity](##Unity).
 
-![alt text](gnomeInternetMenu)
+![alt text][gnomeInternetMenu]
 
 Depois de confirmar basta aguardar a validação de dados.
 
-![alt text](gnomeInternetLoad)
+![alt text][gnomeInternetLoad]
 
 ________________________________
 
