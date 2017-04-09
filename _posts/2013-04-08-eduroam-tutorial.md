@@ -35,6 +35,10 @@ author: "Leandro Ricardo"
 [gnomeInternetMenu]: {{ site.baseurl }}/assets/img/tutorials/eduroam/gnome3-2.png
 [gnomeInternetLoad]: {{ site.baseurl }}/assets/img/tutorials/eduroam/gnome3-3.png
 
+[kdeInternetIcon]: {{ site.baseurl }}/assets/img/tutorials/eduroam/kde-1.png
+[kdeInternetMenu]: {{ site.baseurl }}/assets/img/tutorials/eduroam/kde-2.png
+[kdeInternetLoad]: {{ site.baseurl }}/assets/img/tutorials/eduroam/kde-3.png
+
 Neste tutorial pode encontrar informações de como configurar a rede eduroam na sua distribuição de GNU/Linux.
 
 
@@ -60,7 +64,7 @@ ________________________________
 
 ## <a name="unity"></a>Unity
 
-No canto superior direito deve selecionar o ícone de rede ![alt text][ubuntuInternetIcon]
+No canto superior direito deve selecionar o ícone de rede ![menu wireless][ubuntuInternetIcon]
 De seguida preencher os campos com os seguintes dados:
 
 
@@ -74,27 +78,41 @@ Inner authentication    | MSCHAPv2
 Username                | mail@ua.pt          
 Password                | *****
 
-![alt text][ubuntuInternetMenu]
+![campos a ser preenchidos][ubuntuInternetMenu]
 
 Depois de preencher todos os campos, conforme foi referido anteriormente, basta proceder a conexão e esperar
-![alt text][ubuntuInternetLoad]
+![verificação dos dados][ubuntuInternetLoad]
 
 Após os dados serem validados irá receber a seguinte mensagem de ligação concluída com sucesso:
-![alt text][ubuntuInternetLoad]
+![conexão efetuada com sucesso][ubuntuInternetLoad]
 
 ________________________________
 
 ## <a name="gnome3"></a> Gnome3
 
-No canto superior direito, como no [Unity](##Unity), deve selecionar o ícone de rede ![alt text][gnomeInternetIcon]
+No canto superior direito, como no [Unity](##Unity), deve selecionar o ícone de rede ![menu wireless][gnomeInternetIcon]
 
 Após selecionar a rede **eduroam** deverá preencher os dados como na secção do [Unity](##Unity).
 
-![alt text][gnomeInternetMenu]
+![campos a ser preenchidos][gnomeInternetMenu]
 
 Depois de confirmar basta aguardar a validação de dados.
 
-![alt text][gnomeInternetLoad]
+![conexão efectuada com sucesso][gnomeInternetLoad]
+
+________________________________
+
+## <a name="kde"></a> KDE
+
+No canto inferior direito selecionar o ícone de rede. ![menu wireless][kdeInternetIcon]
+
+Após selecionar a rede **eduroam** deverá preencher os dados como nas secções anteriores. (ex: [Unity](##Unity))
+
+![campos a ser preenchidos][kdeInternetMenu]
+
+Despois de confirmar os dados inseridos os dados serão validados e terá a conexão com a rede **eduroam**.
+
+![conexão efectuada com sucesso][kdeInternetLoad]
 
 ________________________________
 
