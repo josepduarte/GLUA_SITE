@@ -55,6 +55,9 @@ Para poder conectar-se a rede **eduroam** vai ser preciso indicar um certificado
 | **Fedora/RHEL**                     | **CA Certificate**: _/etc/pki/tls/certs/ca-bundle.crt_   |
 | **openSUSE/SLE**                    | **CA Certificate**: _/etc/ssl/ca-bundle.pem_             |
 
+
+________________________________
+
 ## <a name="unity"></a>Unity
 
 No canto superior direito deve selecionar o ícone de rede ![alt text](ubuntuInternetIcon)
@@ -79,6 +82,8 @@ Depois de preencher todos os campos, conforme foi referido anteriormente, basta 
 Após os dados serem validados irá receber a seguinte mensagem de ligação concluída com sucesso:
 ![alt text](ubuntuInternetLoad)
 
+________________________________
+
 ## <a name="gnome3"></a> Gnome3
 
 No canto superior direito, como no [Unity](##Unity), deve selecionar o ícone de rede ![alt text](gnomeInternetIcon)
@@ -90,6 +95,8 @@ Após selecionar a rede **eduroam** deverá preencher os dados como na secção 
 Depois de confirmar basta aguardar a validação de dados.
 
 ![alt text](gnomeInternetLoad)
+
+________________________________
 
 ## <a name="commandLine"></a> Linha de Comandos
 
