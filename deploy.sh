@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo -e "\x1B[32mDeploying to glua.ua.pt\x1B[0m"
-rsync -crvz --rsh='ssh' --delete-after --delete-excluded   ./_site/ glua.ua.pt:public_html/
+rsync -crvz --rsh='ssh' --delete-after --delete-excluded   ./_site/ josepduarte@glua.ua.pt:/var/www/glua.ua.pt/
 if [ $? -ne 0 ]; then
     exit 1
 fi
