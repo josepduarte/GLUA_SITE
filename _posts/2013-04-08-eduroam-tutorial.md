@@ -53,6 +53,8 @@ Neste tutorial pode encontrar informações de como configurar a rede eduroam na
 
 Para poder conectar-se a rede **eduroam** vai ser preciso indicar um certificado de autentificação, cujo o seu destino e ficheiro pode diferir para as diferentes distribuições GNU/LINUX. Assim sendo pode confirmar na seguinte tabela qual é o caminho e ficheiro para as diferentes distribuições:
 
+Para poder conectar-se à rede **eduroam** é necessário indicar um certificado de autentificação, cuja a sua localização difere para as diferentes distribuições GNU/LINUX. Assim sendo, pode confirmar na seguinte tabela qual é o caminho do ficheiro para as diferentes distribuições.
+
 |            Distribuição             |                  Ficheiro a selecionar                   |
 |:-----------------------------------:|:--------------------------------------------------------:|
 | **Debian/Ubuntu/Gentoo/Arch Linux** | **CA Certificate**: _/etc/ssl/certs/ca-certificates.crt_ |
@@ -118,7 +120,7 @@ ________________________________
 
 ## <a name="commandLine"></a> Linha de Comandos
 
-##### (**Atenção: Apenas para utilizadores com alguma experiencia**)
+##### (**Atenção: Apenas para utilizadores com experiência..**)
 Caso prefira conectar-se a rede **eduroam** utilizando a consola siga os seguintes passos:
 
 1 - Criar o ficheiro eduroam.conf e guardar o mesmo na home (~):
@@ -172,10 +174,10 @@ Caso tenha problemas de "_disconnects_", ou problemas de obter um endereço IP, 
 DHCP = dhclient
 ```
 
-Pronto, tem a sua distribuição configurada!
-
 ##### Nota: caso não se deseje abrir outra consola, pode-se executar o _wpa_supplicant_ em segundo plano usando:
 
 ~~~bash
 sudo wpa_supplicant -i wlan0 -c/home/$USERNAME/eduroam.conf -B
 ~~~
+
+Pronto, tem a sua distribuição configurada!
