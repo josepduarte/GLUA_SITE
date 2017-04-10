@@ -1,6 +1,6 @@
 #!/bin/bash
 echo -e "\x1B[33mChanging config.yml properly \x1B[0m"
-sed -i -e 's/http:\/\/localhost:4000/https:\/\/glua.ua.pt/g' _config.yaml
+sed -i -e 's/http:\/\/localhost:4000/https:\/\/glua.ua.pt/g' _config.yml
 echo -e "\x1B[32mDone with config.yml! \x1B[0m"
 echo -e "\x1B[33mBuilding site. \x1B[0m"
 bundle exec jekyll build  
