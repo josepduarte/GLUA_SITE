@@ -1,12 +1,14 @@
 ---
 layout: page
-title: GLUA
+title: Sobre nós
 tags: [about, glua]
 date: 2016-03-21
 comments: false
 ---
+[glua_bg_white]: {{ site.baseurl }}/assets/img/logos/glua_medium_orange_for_white_bg.png
 
-# <center>Sobre nós</center>
+![alt_text][glua_bg_white]  
+<br>
 
 O **GLUA**, *Grupo Linux da Universidade de Aveiro*, é um grupo integrado no Departamento de Eletrónica, Telecomunicações e Informática (**DETI**) que tem como objetivo divulgar e promover o **Software Livre e Aberto** (F/OSS), mais nomeadamente soluções baseadas em sistemas GNU/Linux.
 Parte das nossas ações traduzem-se em eventos organizados na **Universidade de Aveiro**, que visam na sua maioria, em **divulgar e ensinar** ferramentas livres à comunidade académica.
