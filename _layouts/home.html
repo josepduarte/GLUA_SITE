@@ -18,17 +18,20 @@ layout: compress
                     <a href="{{ site.url }}">
                         <img src="{{ site.logo }}" class="img-logo">
                     </a>
-                  </br>
+                    </br>
                     <hr class="hr-line">
                     <h3 class="title">
                         <a href="{{ site.url }}">
                         	<p style="font-size:1rem;font-weight:300">{{ site.bio }}</p>
-			            </a>
+			                  </a>
                     </h3>
                     {% include social-links.html %}
-                  <a class="btn zoombtn" onMouseOver="document.getElementById('img_add').src='{{site.url}}/assets/img/others/glua_add_2.svg'"  onMouseOut="document.getElementById('img_add').src='{{site.url}}/assets/img/others/glua_add.svg'" href="{{ site.url }}/joinus" >
-                  <img id="img_add" src="{{site.url}}/assets/img/others/glua_add.svg" style="height:60px; vertical-align: middle;"> Junta-te a nós!
-                  </a>
+                    <h3 class="title">
+                      <a class="btn zoombtn" onMouseOver="document.getElementById('img_add').src='{{site.url}}/assets/img/others/glua_add_2.svg'"  onMouseOut="document.getElementById('img_add').src='{{site.url}}/assets/img/others/glua_add.svg'" href="{{ site.url }}/joinus" >
+                        <img id="img_add" src="{{site.url}}/assets/img/others/glua_add.svg" style="height:60px; vertical-align: middle;"> Junta-te a nós!
+                      </a>
+                    </h3>
+
                   <hr class="hr-line">
                   <h3 class="title">
                          <a class="btn zoombtn" href="{{ site.url }}/about">
@@ -45,11 +48,6 @@ layout: compress
                          </a>
 
                  </h3>
-            </div>
-            <div class="row">
-              <h3 class="title">
-
-              </h3>
             </div>
             {% include footer.html %}
         </div>
