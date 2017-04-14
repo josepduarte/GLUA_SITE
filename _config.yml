@@ -4,7 +4,7 @@ bio:                'Grupo de Linux da Universidade de Aveiro'
 description:        "Grupo integrado no Departamento de Electrónica, Telecomunicações e Informática da Universidade de Averio que tem como objectivo divulgar e promover o Software Livre e Aberto. "
 reading_time:       true
 words_per_minute:   200
-logo:               'assets/img/logo.png'
+logo:               'assets/img/logo.svg'
 #background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
