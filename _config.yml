@@ -38,9 +38,11 @@ disqus_shortname:   GLUA
   #ad-slot:
 #bing-verify:
 email:              "glua@ua.pt"
-#twitter:            username
+twitter:            GLUA
 facebook:           glua.ua
 github-url:         GLUA-UA
+slack_team:         glua        
+slack_channel:      detiuaveiro
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
 #xing:              username
