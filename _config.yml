@@ -9,7 +9,7 @@ logo:               'assets/img/logo.svg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
 url:                "./"
-beseurl:            "./"
+beseurl:            "/"
 # Jekyll
 permalink:          /:title/
 markdown:           kramdown
@@ -41,7 +41,7 @@ email:              "glua@ua.pt"
 twitter:            GLUA
 facebook:           glua.ua
 github-url:         GLUA-UA
-slack_team:         glua        
+slack_team:         glua
 slack_channel:      detiuaveiro
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
