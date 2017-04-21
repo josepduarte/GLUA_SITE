@@ -8,8 +8,8 @@ logo:               'assets/img/logo.svg'
 #background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
-url:                http://localhost:4000/
-beseurl:            /glua-site
+url:                "./"
+beseurl:            "./"
 # Jekyll
 permalink:          /:title/
 markdown:           kramdown
