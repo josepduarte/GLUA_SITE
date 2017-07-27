@@ -7,18 +7,29 @@ tags: []
 tutorial : true
 comments: false
 author: "Leandro Ricardo"
+images:
+ - /assets/img/tutorials/mailUA/mailUAlogin.png
+ - /assets/img/tutorials/mailUA/defOpt.png
+ - /assets/img/tutorials/mailUA/escolha.png
+ - /assets/img/tutorials/mailUA/acesso.png
+ - /assets/img/tutorials/mailUA/thunder1.png
+ - /assets/img/tutorials/mailUA/thunder2.png
+ - /assets/img/tutorials/mailUA/thunder3.png
+ - /assets/img/tutorials/mailUA/thunder4.png
+ - /assets/img/tutorials/mailUA/thunder5.png
+ 
 ---
 
-[mailUAlogin]: {{site.baseurl}}/assets/img/tutorials/mailUA/mailUAlogin.png
-[defOpt]:{{site.baseurl}}/assets/img/tutorials/mailUA/defOpt.png
-[escolha]:{{site.baseurl}}/assets/img/tutorials/mailUA/escolha.png
-[acesso]:{{site.baseurl}}/assets/img/tutorials/mailUA/acesso.png
-[thunder1]:{{site.baseurl}}/assets/img/tutorials/mailUA/thunder1.png
-[thunder2]:{{site.baseurl}}/assets/img/tutorials/mailUA/thunder2.png
-[thunder3]:{{site.baseurl}}/assets/img/tutorials/mailUA/thunder3.png
-[thunder4]:{{site.baseurl}}/assets/img/tutorials/mailUA/thunder4.png
-[thunder5]:{{site.baseurl}}/assets/img/tutorials/mailUA/thunder5.png
 
+[mailUAlogin]:{{page.images[0]}}
+[defOpt]:			{{page.images[1]}}
+[escolha]:		{{page.images[2]}}
+[acesso]:			{{page.images[3]}}
+[thunder1]:		{{page.images[4]}}
+[thunder2]:		{{page.images[5]}}
+[thunder3]:		{{page.images[6]}}
+[thunder4]:		{{page.images[7]}}
+[thunder5]:		{{page.images[8]}}
 
 ## Conteúdos
 1. [Obter dados de acesso](#get)
@@ -27,34 +38,34 @@ author: "Leandro Ricardo"
 
 ## <a name="get"></a>Obter dados de acesso
 Entre no email da UA:
-![mailUAlogin]
+[![mailUAlogin]]({{page.images[0]}})
 
 No canto superior direito, no menu "Definições", selecionar "Correio":
-![defOpt]
+[![defOpt]]({{page.images[1]}})
 
 No lado esquerdo, em "Opções" -> "Contas", selecionar "POP e IMAP":
-![escolha]
+[![escolha]]({{page.images[2]}})
 
 Aparecerá as definições do correio(atenção que os dados da imagem podem variar):
-![acesso]
+[![acesso]]({{page.images[3]}})
 
 ___________________________________________
 
 ## <a name="conf"></a>Configuração de clientes
 ### <a name="thunderbird"></a>Thunderbird
 Abra o Tunderbird e no canto superior direito:
-![thunder1]
+[![thunder1]]({{page.images[4]}})
 
 Vá a preferências, "Definições de Conta" (Preferences, Account Settings):
-![thunder2]
+[![thunder2]]({{page.images[5]}})
 
 Em baixo, do lado esquerdo clique em "Ações de conta" (Account Actions), e selecione "Adicionar novo email" (Add new e-mail):
-![thunder3]
+[![thunder3]]({{page.images[6]}})
 
 Insira os dados básicos da sua conta de email, selecione “Continuar” (Continue) e aguarde:
-![thunder4]
+[![thunder4]]({{page.images[7]}})
 
 No fim de aguardar alguns segundos, preencha os campos que faltam em baixo, com os dados existentes no portal de email da UA (último passo da secção anterior), deixando os restantes campos em “Detectar automaticamente” (Autodetect):
-![thunder5]
+[![thunder5]]({{page.images[8]}})
 
 Por fim, seleccione “Voltar a testar” (Re-test). Após aguardar, aparecerá uma mensagem a informar que a configuração é aceite pelo servidor. Selecione “Confirmar” (Done).

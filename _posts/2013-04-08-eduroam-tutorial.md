@@ -7,6 +7,19 @@ tags: []
 tutorial : true
 comments: false
 author: "Leandro Ricardo"
+unity: 
+ - /assets/img/tutorials/eduroam/unity-1.png
+ - /assets/img/tutorials/eduroam/unity-2.png
+ - /assets/img/tutorials/eduroam/unity-3.png
+ - /assets/img/tutorials/eduroam/unity-4.png
+gnome:
+ - /assets/img/tutorials/eduroam/gnome3-1.png
+ - /assets/img/tutorials/eduroam/gnome3-2.png
+ - /assets/img/tutorials/eduroam/gnome3-3.png
+kde:
+ - /assets/img/tutorials/eduroam/kde-1.png
+ - /assets/img/tutorials/eduroam/kde-2.png
+ - /assets/img/tutorials/eduroam/kde-3.png
 ---
 
 <style>
@@ -26,18 +39,18 @@ author: "Leandro Ricardo"
   }
 </style>
 
-[ubuntuInternetIcon]: {{ site.baseurl }}/assets/img/tutorials/eduroam/unity-1.png
-[ubuntuInternetMenu]: {{ site.baseurl }}/assets/img/tutorials/eduroam/unity-2.png
-[ubuntuInternetLoad]: {{ site.baseurl }}/assets/img/tutorials/eduroam/unity-3.png
-[ubuntuInternetLoad]: {{ site.baseurl }}/assets/img/tutorials/eduroam/unity-4.png
+[ubuntuInternetIcon]: {{page.unity[0]}}
+[ubuntuInternetMenu]: {{page.unity[1]}}
+[ubuntuInternetLoad]: {{page.unity[2]}}
+[ubuntuInternetLoad2]: {{page.unity[3]}}
 
-[gnomeInternetIcon]: {{ site.baseurl }}/assets/img/tutorials/eduroam/gnome3-1.png
-[gnomeInternetMenu]: {{ site.baseurl }}/assets/img/tutorials/eduroam/gnome3-2.png
-[gnomeInternetLoad]: {{ site.baseurl }}/assets/img/tutorials/eduroam/gnome3-3.png
+[gnomeInternetIcon]: {{page.gnome[0]}}
+[gnomeInternetMenu]: {{page.gnome[1]}}
+[gnomeInternetLoad]: {{page.gnome[2]}}
 
-[kdeInternetIcon]: {{ site.baseurl }}/assets/img/tutorials/eduroam/kde-1.png
-[kdeInternetMenu]: {{ site.baseurl }}/assets/img/tutorials/eduroam/kde-2.png
-[kdeInternetLoad]: {{ site.baseurl }}/assets/img/tutorials/eduroam/kde-3.png
+[kdeInternetIcon]: {{page.kde[0]}}
+[kdeInternetMenu]: {{page.kde[1]}}
+[kdeInternetLoad]: {{page.kde[2]}}
 
 Neste tutorial pode encontrar informações de como configurar a rede eduroam na sua distribuição de GNU/Linux.
 
@@ -66,7 +79,7 @@ ________________________________
 
 ## <a name="unity"></a>Unity
 
-No canto superior direito deve selecionar o ícone de rede ![menu wireless][ubuntuInternetIcon]
+No canto superior direito deve selecionar o ícone de rede [![ubuntuInternetIcon]]({{page.unity[0]}})
 De seguida preencher os campos com os seguintes dados:
 
 
@@ -80,41 +93,43 @@ Inner authentication    | MSCHAPv2
 Username                | mail@ua.pt          
 Password                | *****
 
-![campos a ser preenchidos][ubuntuInternetMenu]
+[![ubuntuInternetMenu]]({{page.unity[1]}})
 
 Depois de preencher todos os campos, conforme foi referido anteriormente, basta proceder a conexão e esperar
-![verificação dos dados][ubuntuInternetLoad]
+[![ubuntuInternetLoad]]({{page.unity[2]}})
 
 Após os dados serem validados irá receber a seguinte mensagem de ligação concluída com sucesso:
-![conexão efetuada com sucesso][ubuntuInternetLoad]
+[![ubuntuInternetLoad2]]({{page.unity[3]}})
 
 ________________________________
 
 ## <a name="gnome3"></a> Gnome3
 
-No canto superior direito, como no [Unity](##Unity), deve selecionar o ícone de rede ![menu wireless][gnomeInternetIcon]
+No canto superior direito, como no [Unity](##Unity), deve selecionar o ícone de rede 
+[![gnomeInternetIcon]]({{page.gnome[0]}})
 
 Após selecionar a rede **eduroam** deverá preencher os dados como na secção do [Unity](##Unity).
 
-![campos a ser preenchidos][gnomeInternetMenu]
+[![gnomeInternetMenu]]({{page.gnome[1]}})
 
 Depois de confirmar basta aguardar a validação de dados.
 
-![conexão efectuada com sucesso][gnomeInternetLoad]
+[![gnomeInternetLoad]]({{page.gnome[2]}})
 
 ________________________________
 
 ## <a name="kde"></a> KDE
 
-No canto inferior direito selecionar o ícone de rede. ![menu wireless][kdeInternetIcon]
+No canto inferior direito selecionar o ícone de rede. 
+[![kdeInternetIcon]]({{page.kde[0]}})
 
 Após selecionar a rede **eduroam** deverá preencher os dados como nas secções anteriores. (ex: [Unity](##Unity))
 
-![campos a ser preenchidos][kdeInternetMenu]
+[![kdeInternetMenu]]({{page.kde[1]}})
 
 Despois de confirmar os dados inseridos os dados serão validados e terá a conexão com a rede **eduroam**.
 
-![conexão efectuada com sucesso][kdeInternetLoad]
+[![kdeInternetLoad]]({{page.kde[2]}})
 
 ________________________________
 
