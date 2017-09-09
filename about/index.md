@@ -18,6 +18,27 @@ Os membros ativos do GLUA são maioritariamente alunos do DETI, embora o grupo e
 
 O GLUA está sediado na sala **120 do DETI**.
 
+<details>
+<summary markdown="1">
+<h2 style="display:inline;">Equipa</h2>
+</summary>
+<div markdown="1">
++ Álvaro Martins
++ Bárbara Jael
++ Caio
++ Daniela Sousa
++ Eduardo Sousa
++ Fábio Silva
++ Gonçalo Grilo
++ Guilherme Cardoso
++ Hugo Fragata
++ José Duarte
++ João Fonseca
++ Leandro Ricardo
++ Leonardo Costa
++ Marco Silva
+</div>
+</details>
 ## Hora de atendimento
 
 O horário de atendimento do GLUA encontra-se **encerrado por tempo indeterminado**.

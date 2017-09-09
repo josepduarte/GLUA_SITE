@@ -22,6 +22,9 @@ layout: compress
                     {% else %}
                     <h4> {{ page.date | date_to_string }}</h4>
                     {% endif %}
+                    {% if page.updated %}
+                    <h4> Última revisão em {{ page.updated | date_to_string }} </h4>
+                    {% endif %}
                     {% if site.reading_time %}
                     <p class="reading-time">
                       <i class="fa fa-clock-o"></i>

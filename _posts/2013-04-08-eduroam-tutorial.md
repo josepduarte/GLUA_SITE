@@ -182,15 +182,12 @@ sudo dhclient wlan0
 
 Foi usado o cliente de DHCP dhclient (típico de Debian/Ubuntu/Fedora), mas poderia ser usado qualquer outro à escolha, por exemplo, o dhcpcd (típico de ArchLinux/Gentoo).
 
-##### Nota:
-Caso tenha problemas de "_disconnects_", ou problemas de obter um endereço IP, na distribuição ArchLinux adicione a seguinte linha na secção _main_ do ficheiro _NetoworkManager.conf_ que se encontra em */etc/NetoworkManager/NetoworkManager.conf*
-
+>Caso tenha problemas de "_disconnects_", ou problemas de obter um endereço IP, na distribuição ArchLinux adicione a seguinte linha na secção _main_ do ficheiro _NetoworkManager.conf_ que se encontra em */etc/NetoworkManager/NetoworkManager.conf*
 ```bash
 DHCP = dhclient
 ```
 
-##### Nota: caso não se deseje abrir outra consola, pode-se executar o _wpa_supplicant_ em segundo plano usando:
-
+>caso não se deseje abrir outra consola, pode-se executar o _wpa_supplicant_ em segundo plano usando:
 ~~~bash
 sudo wpa_supplicant -i wlan0 -c/home/$USERNAME/eduroam.conf -B
 ~~~
